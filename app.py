@@ -11,7 +11,7 @@ st.set_page_config(page_title="AeroSafe AI Dashboard", layout="wide")
 # ---------- LOAD DATA ----------
 @st.cache_data
 def load_data():
-    csv_url = "https://raw.githubusercontent.com/GohelR/VOIS_AeroSafe-AI-Triple-Fusion-Flight-Guardian-/main/data/fused_risk_sample.csv"
+    url = "https://raw.githubusercontent.com/GohelR/VOIS_AeroSafe-AI-Triple-Fusion-Flight-Guardian-/main/data/fused_risk_sample.csv"
     return pd.read_csv(url)
 
 df = load_data()
