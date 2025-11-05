@@ -1,11 +1,7 @@
-streamlit
-streamlit-lottie
-pandas
-requests
-pydeck
-from streamlit_lottie import st_lottie
-import pydeck as pdk
-import plotly.graph_objects as go
-import plotly.express as px
-from datetime import datetime, timedelta
-import time
+streamlit==1.31.0
+pandas==2.1.4
+numpy==1.26.3
+requests==2.31.0
+streamlit-lottie==0.0.5
+pydeck==0.8.1
+plotly==5.18.0
